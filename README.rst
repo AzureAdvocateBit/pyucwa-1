@@ -23,9 +23,9 @@ Usage
 
 Setup your tenant
 
-Follow the steps in https://msdn.microsoft.com/en-us/office/office365/howto/add-common-consent-manually
+Follow the steps in https://msdn.microsoft.com/office/office365/howto/add-common-consent-manually?WT.mc_id=python-0000-anthonyshaw
 
-Enter the pool for your tenant by visiting the URL : https://webdir.online.lync.com/Autodiscover/AutodiscoverService.svc/root?originalDomain=parliamentfunksterhotmail.onmicrosoft.com with your domain.
+Enter the pool for your tenant by visiting the URL : https://webdir.online.lync.com/Autodiscover/AutodiscoverService.svc/root?originalDomain=parliamentfunksterhotmail.onmicrosoft.com&WT.mc_id=python-0000-anthonyshaw with your domain.
 
 Create a file config.yml with similar details
 
@@ -35,7 +35,7 @@ Create a file config.yml with similar details
     client_id: "0b78a9be-6b65-1234-b8e6-a0b21a8672c3"
     secret: "jPpYkK+sdf3423r="
     domain: "mydomain.onmicrosoft.com"
-    app_id: "https://mydomain.onmicrosoft.com/bot"
+    app_id: "https://mydomain.onmicrosoft.com/bot?WT.mc_id=python-0000-anthonyshaw"
 
 Start the web server
 
